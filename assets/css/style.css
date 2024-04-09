@@ -674,3 +674,51 @@ a {
   border-radius: 14px;
   background: #2ac9bf;
 }
+/* =======================footer==================== */
+.footer {
+  background: #fff;
+}
+
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+}
+
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+
+.footer .list .social-icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  text-align: center;
+}
