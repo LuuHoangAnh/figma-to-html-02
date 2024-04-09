@@ -54,6 +54,11 @@ a {
   line-height: 1.33;
 }
 
+.top-title-lv2 {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 /* =======================header==================== */
 .header {
   background: #ffffff;
@@ -337,4 +342,202 @@ a {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
+}
+/* =======================feautures==================== */
+.features {
+  margin-top: 70px;
+}
+
+.features .body-feautures {
+  max-width: 1024px;
+  padding: 60px;
+}
+
+.features .heading-lv2 {
+  margin-top: 18px;
+  max-width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+
+.features .desc {
+  max-width: 590px;
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+
+.features .features-list {
+  margin-top: 80px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.features .features-list .item-title {
+  margin-top: 26px;
+}
+
+.features .features-list .item-title a {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.features .item .item-desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69; /* 168.75% */
+}
+
+.features .item .item-desc:first-child {
+  max-width: 168px;
+}
+
+.features .item .item-desc:nth-child(2) {
+  max-width: 223px;
+}
+
+.features .item .item-desc:nth-child(3) {
+  max-width: 224px;
+}
+/* =======================courses==================== */
+.courses {
+  margin-top: 10px;
+}
+
+.courses .body {
+  padding: 60px 0 184px;
+}
+
+.courses .heading-lv2 {
+  margin-top: 18px;
+}
+
+.courses .row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .all-courses {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.courses .desc {
+  margin-top: 19px;
+  max-width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78; /* 177.778% */
+}
+
+.courses .course-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+
+.courses .course-list .course-item {
+  position: relative;
+}
+
+.courses .course-item .thumb {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.7;
+  background: #d0efed;
+}
+
+.courses .course-item .course-detail {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .course-item .wrap-item {
+  padding: 18px 25px 0;
+}
+
+.courses .heading-lv3 a {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.courses .course-detail .cost {
+  margin-top: 16px;
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+
+.courses .course-detail .cost span {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.courses .course-detail .desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.courses .course-detail .static {
+  margin-top: 18px;
+  left: -10px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.courses .course-detail .static span::before {
+  margin: 0 10px;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1ebfc1;
+}
+/* =======================countdown==================== */
+.countdown {
+  margin-top: 81px;
+}
+
+.countdown .body {
+  max-width: 862px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.countdown .countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown .countdown-item .static {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.countdown .countdown-item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
